@@ -1,7 +1,7 @@
 %define major 1
 
-%define libname %mklibname liblc3
-%define devname %mklibname -d liblc3
+%define libname %mklibname lc3
+%define devname %mklibname -d lc3
 
 Name:           liblc3
 Version:        1.0.4
