@@ -1,3 +1,5 @@
+%define major 1
+
 %define libname %mklibname liblc3
 %define devname %mklibname -d liblc3
 
@@ -61,7 +63,7 @@ This package provides all the necessary files for development with
 
 %files -n %{libname}
 %license LICENSE
-%{_libdir}/liblc3.so.*
+%{_libdir}/liblc3.so.%{major}*
 
 %files tools
 %{_bindir}/dlc3
