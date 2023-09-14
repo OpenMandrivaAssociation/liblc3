@@ -59,8 +59,6 @@ This package provides all the necessary files for development with
 %install
 %meson_install
 
-%ldconfig_scriptlets -n %{lc3soname}
-
 %files -n %{libname}
 %license LICENSE
 %{_libdir}/liblc3.so.*
