@@ -4,7 +4,7 @@
 %define devname %mklibname -d lc3
 
 Name:           liblc3
-Version:        1.0.4
+Version:        1.1.1
 Release:        1
 Summary:        Low Complexity Communication Codec (LC3)
 License:        Apache-2.0
